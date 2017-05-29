@@ -9,5 +9,5 @@
 import UIKit
 import CoreData
 
-class Player: NSObject {    
+class Player: NSManagedObject {
 }
