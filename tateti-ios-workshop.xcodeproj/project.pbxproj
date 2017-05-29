@@ -13,6 +13,7 @@
 		433BC1BA1EDB927B005F9F02 /* tateti_ios_workshop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 433BC1B81EDB927B005F9F02 /* tateti_ios_workshop.xcdatamodeld */; };
 		433BC1BC1EDB927B005F9F02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433BC1BB1EDB927B005F9F02 /* Assets.xcassets */; };
 		433BC1BF1EDB927B005F9F02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433BC1BD1EDB927B005F9F02 /* LaunchScreen.storyboard */; };
+		433BC1C71EDBD73C005F9F02 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433BC1C61EDBD73C005F9F02 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		433BC1BB1EDB927B005F9F02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		433BC1BE1EDB927B005F9F02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		433BC1C01EDB927B005F9F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		433BC1C61EDBD73C005F9F02 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				433BC1BD1EDB927B005F9F02 /* LaunchScreen.storyboard */,
 				433BC1C01EDB927B005F9F02 /* Info.plist */,
 				433BC1B81EDB927B005F9F02 /* tateti_ios_workshop.xcdatamodeld */,
+				433BC1C61EDBD73C005F9F02 /* Player.swift */,
 			);
 			path = "tateti-ios-workshop";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				433BC1C71EDBD73C005F9F02 /* Player.swift in Sources */,
 				433BC1B41EDB927B005F9F02 /* ViewController.swift in Sources */,
 				433BC1BA1EDB927B005F9F02 /* tateti_ios_workshop.xcdatamodeld in Sources */,
 				433BC1B21EDB927B005F9F02 /* AppDelegate.swift in Sources */,
