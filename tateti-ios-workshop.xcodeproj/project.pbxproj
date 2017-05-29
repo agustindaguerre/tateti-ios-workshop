@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		433BC1B21EDB927B005F9F02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433BC1B11EDB927B005F9F02 /* AppDelegate.swift */; };
 		433BC1B41EDB927B005F9F02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433BC1B31EDB927B005F9F02 /* ViewController.swift */; };
-		433BC1B71EDB927B005F9F02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433BC1B51EDB927B005F9F02 /* Main.storyboard */; };
+		433BC1B71EDB927B005F9F02 /* Game.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433BC1B51EDB927B005F9F02 /* Game.storyboard */; };
 		433BC1BA1EDB927B005F9F02 /* tateti_ios_workshop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 433BC1B81EDB927B005F9F02 /* tateti_ios_workshop.xcdatamodeld */; };
 		433BC1BC1EDB927B005F9F02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433BC1BB1EDB927B005F9F02 /* Assets.xcassets */; };
 		433BC1BF1EDB927B005F9F02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433BC1BD1EDB927B005F9F02 /* LaunchScreen.storyboard */; };
+		43D014DB1EDCA22A0035447D /* Ranking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43D014DA1EDCA22A0035447D /* Ranking.storyboard */; };
+		43E2EBD91EDC52470059BD02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E2EBD81EDC52470059BD02 /* Main.storyboard */; };
 		6A02FABFA58E5B2A6F6D3825 /* Pods_tateti_ios_workshop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0F27F2034E87F5327AFBF1 /* Pods_tateti_ios_workshop.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,11 +25,13 @@
 		433BC1AE1EDB927B005F9F02 /* tateti-ios-workshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tateti-ios-workshop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		433BC1B11EDB927B005F9F02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		433BC1B31EDB927B005F9F02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		433BC1B61EDB927B005F9F02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		433BC1B61EDB927B005F9F02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Game.storyboard; sourceTree = "<group>"; };
 		433BC1B91EDB927B005F9F02 /* tateti_ios_workshop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tateti_ios_workshop.xcdatamodel; sourceTree = "<group>"; };
 		433BC1BB1EDB927B005F9F02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		433BC1BE1EDB927B005F9F02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		433BC1C01EDB927B005F9F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D014DA1EDCA22A0035447D /* Ranking.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ranking.storyboard; sourceTree = "<group>"; };
+		43E2EBD81EDC52470059BD02 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +69,13 @@
 			children = (
 				433BC1B11EDB927B005F9F02 /* AppDelegate.swift */,
 				433BC1B31EDB927B005F9F02 /* ViewController.swift */,
-				433BC1B51EDB927B005F9F02 /* Main.storyboard */,
+				433BC1B51EDB927B005F9F02 /* Game.storyboard */,
 				433BC1BB1EDB927B005F9F02 /* Assets.xcassets */,
 				433BC1BD1EDB927B005F9F02 /* LaunchScreen.storyboard */,
 				433BC1C01EDB927B005F9F02 /* Info.plist */,
 				433BC1B81EDB927B005F9F02 /* tateti_ios_workshop.xcdatamodeld */,
+				43E2EBD81EDC52470059BD02 /* Main.storyboard */,
+				43D014DA1EDCA22A0035447D /* Ranking.storyboard */,
 			);
 			path = "tateti-ios-workshop";
 			sourceTree = "<group>";
@@ -156,7 +162,9 @@
 			files = (
 				433BC1BF1EDB927B005F9F02 /* LaunchScreen.storyboard in Resources */,
 				433BC1BC1EDB927B005F9F02 /* Assets.xcassets in Resources */,
-				433BC1B71EDB927B005F9F02 /* Main.storyboard in Resources */,
+				433BC1B71EDB927B005F9F02 /* Game.storyboard in Resources */,
+				43E2EBD91EDC52470059BD02 /* Main.storyboard in Resources */,
+				43D014DB1EDCA22A0035447D /* Ranking.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,12 +232,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		433BC1B51EDB927B005F9F02 /* Main.storyboard */ = {
+		433BC1B51EDB927B005F9F02 /* Game.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				433BC1B61EDB927B005F9F02 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Game.storyboard;
 			sourceTree = "<group>";
 		};
 		433BC1BD1EDB927B005F9F02 /* LaunchScreen.storyboard */ = {
