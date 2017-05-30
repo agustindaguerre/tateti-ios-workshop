@@ -6,7 +6,7 @@ target 'tateti-ios-workshop' do
 
   	pod 'SwiftMessages', '~> 3.1.5'
 	pod 'DZNEmptyDataSet', '~> 1.8.1'
-
+	pod 'Eureka', '~> 3.0.0'
 
 
 
