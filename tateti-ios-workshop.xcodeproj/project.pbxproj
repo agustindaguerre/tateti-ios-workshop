@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		433773061EDE3329005AE9E8 /* SelectPlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433773051EDE3329005AE9E8 /* SelectPlayersViewController.swift */; };
 		433BC1B21EDB927B005F9F02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433BC1B11EDB927B005F9F02 /* AppDelegate.swift */; };
 		433BC1B41EDB927B005F9F02 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433BC1B31EDB927B005F9F02 /* GameViewController.swift */; };
 		433BC1B71EDB927B005F9F02 /* Game.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433BC1B51EDB927B005F9F02 /* Game.storyboard */; };
@@ -26,6 +27,7 @@
 		0BCC49E737F6B894D04A6DD6 /* Pods-tateti-ios-workshop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tateti-ios-workshop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tateti-ios-workshop/Pods-tateti-ios-workshop.debug.xcconfig"; sourceTree = "<group>"; };
 		0D34EF0874BA1AC9A1890F42 /* Pods-tateti-ios-workshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tateti-ios-workshop.release.xcconfig"; path = "Pods/Target Support Files/Pods-tateti-ios-workshop/Pods-tateti-ios-workshop.release.xcconfig"; sourceTree = "<group>"; };
 		1B0F27F2034E87F5327AFBF1 /* Pods_tateti_ios_workshop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tateti_ios_workshop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		433773051EDE3329005AE9E8 /* SelectPlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectPlayersViewController.swift; sourceTree = "<group>"; };
 		433BC1AE1EDB927B005F9F02 /* tateti-ios-workshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tateti-ios-workshop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		433BC1B11EDB927B005F9F02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		433BC1B31EDB927B005F9F02 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				43D014DE1EDCA3DF0035447D /* RankingViewController.swift */,
 				43D014E01EDCA9620035447D /* PlayerViewController.swift */,
 				43D014E61EDD219C0035447D /* PlayerPresenter.swift */,
+				433773051EDE3329005AE9E8 /* SelectPlayersViewController.swift */,
 			);
 			path = "tateti-ios-workshop";
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43D014DF1EDCA3DF0035447D /* RankingViewController.swift in Sources */,
+				433773061EDE3329005AE9E8 /* SelectPlayersViewController.swift in Sources */,
 				433BC1B41EDB927B005F9F02 /* GameViewController.swift in Sources */,
 				433BC1BA1EDB927B005F9F02 /* tateti_ios_workshop.xcdatamodeld in Sources */,
 				433BC1B21EDB927B005F9F02 /* AppDelegate.swift in Sources */,

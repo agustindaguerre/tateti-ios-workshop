@@ -9,9 +9,12 @@
 import UIKit
 
 class GameViewController: UIViewController {
-
+    
+    var players: [PlayerMO] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.isNavigationBarHidden = true
         // Do any additional setup after loading the view, typically from a nib.
     }
     

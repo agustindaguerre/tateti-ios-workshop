@@ -87,7 +87,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="0AJ-Da-jBv"/>
                     <connections>
-                        <segue destination="G5b-oj-2UT" kind="show" identifier="gameSegue" id="Vc8-xw-CjB"/>
+                        <segue destination="G5b-oj-2UT" kind="show" identifier="gameStorySegue" id="Vc8-xw-CjB"/>
                         <segue destination="jNl-9N-sDJ" kind="show" identifier="playerSegue" id="BOk-oe-cLb"/>
                     </connections>
                 </viewController>

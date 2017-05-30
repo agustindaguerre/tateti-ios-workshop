@@ -19,12 +19,14 @@ class PlayerPresenter {
         managedContext = appDelegate.persistentContainer.viewContext
     }
     
-    private func getPlayers(email: String) -> [PlayerMO] {
-        // filter predicate
-        let predicate = NSPredicate(format: "email == %@", email)
+    func getPlayers(email: String? = nil) -> [PlayerMO] {
         // fetch request
         let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "Player")
-        fetchRequest.predicate = predicate
+        if let emailFilter = email {
+            // filter predicate
+            let predicate = NSPredicate(format: "email == %@", emailFilter)
+            fetchRequest.predicate = predicate
+        }
         
         var players: [PlayerMO] = []
         do {
