@@ -41,6 +41,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="New Player"/>
+                                <connections>
+                                    <action selector="newPlayerClick:" destination="Sho-oM-FHF" eventType="touchUpInside" id="RKa-jh-awu"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -48,6 +51,7 @@
                     <navigationItem key="navigationItem" id="0AJ-Da-jBv"/>
                     <connections>
                         <segue destination="G5b-oj-2UT" kind="show" identifier="gameSegue" id="Vc8-xw-CjB"/>
+                        <segue destination="jNl-9N-sDJ" kind="show" identifier="playerSegue" id="BOk-oe-cLb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g9P-wm-5gV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -60,7 +64,25 @@
                 <viewControllerPlaceholder storyboardName="Game" id="G5b-oj-2UT" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="09i-Y7-adT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1685" y="125"/>
+            <point key="canvasLocation" x="1852" y="-115"/>
+        </scene>
+        <!--Player View Controller-->
+        <scene sceneID="tUx-OU-iUG">
+            <objects>
+                <viewController id="jNl-9N-sDJ" customClass="PlayerViewController" customModule="tateti_ios_workshop" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="91L-SI-INw"/>
+                        <viewControllerLayoutGuide type="bottom" id="rbD-TF-19Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="G4b-e2-rC1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sw3-V2-URw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2002" y="361"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="REC-Xy-uOZ">

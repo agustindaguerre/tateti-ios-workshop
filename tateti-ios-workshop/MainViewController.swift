@@ -22,4 +22,7 @@ class MainViewController: UIViewController {
         performSegue(withIdentifier: "gameSegue", sender: self)
     }
     
+    @IBAction func newPlayerClick(_ sender: UIButton) {
+        performSegue(withIdentifier: "playerSegue", sender: self)
+    }
 }

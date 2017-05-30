@@ -16,6 +16,8 @@
 		43D014DB1EDCA22A0035447D /* Ranking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43D014DA1EDCA22A0035447D /* Ranking.storyboard */; };
 		43D014DD1EDCA3870035447D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D014DC1EDCA3870035447D /* MainViewController.swift */; };
 		43D014DF1EDCA3DF0035447D /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D014DE1EDCA3DF0035447D /* RankingViewController.swift */; };
+		43D014E11EDCA9620035447D /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D014E01EDCA9620035447D /* PlayerViewController.swift */; };
+		43D014E71EDD219C0035447D /* PlayerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D014E61EDD219C0035447D /* PlayerPresenter.swift */; };
 		43E2EBD91EDC52470059BD02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E2EBD81EDC52470059BD02 /* Main.storyboard */; };
 		6A02FABFA58E5B2A6F6D3825 /* Pods_tateti_ios_workshop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0F27F2034E87F5327AFBF1 /* Pods_tateti_ios_workshop.framework */; };
 /* End PBXBuildFile section */
@@ -35,6 +37,8 @@
 		43D014DA1EDCA22A0035447D /* Ranking.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ranking.storyboard; sourceTree = "<group>"; };
 		43D014DC1EDCA3870035447D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		43D014DE1EDCA3DF0035447D /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		43D014E01EDCA9620035447D /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		43D014E61EDD219C0035447D /* PlayerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerPresenter.swift; sourceTree = "<group>"; };
 		43E2EBD81EDC52470059BD02 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +86,8 @@
 				43D014DA1EDCA22A0035447D /* Ranking.storyboard */,
 				43D014DC1EDCA3870035447D /* MainViewController.swift */,
 				43D014DE1EDCA3DF0035447D /* RankingViewController.swift */,
+				43D014E01EDCA9620035447D /* PlayerViewController.swift */,
+				43D014E61EDD219C0035447D /* PlayerPresenter.swift */,
 			);
 			path = "tateti-ios-workshop";
 			sourceTree = "<group>";
@@ -234,6 +240,8 @@
 				433BC1BA1EDB927B005F9F02 /* tateti_ios_workshop.xcdatamodeld in Sources */,
 				433BC1B21EDB927B005F9F02 /* AppDelegate.swift in Sources */,
 				43D014DD1EDCA3870035447D /* MainViewController.swift in Sources */,
+				43D014E71EDD219C0035447D /* PlayerPresenter.swift in Sources */,
+				43D014E11EDCA9620035447D /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
