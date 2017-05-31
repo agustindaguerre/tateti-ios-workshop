@@ -147,7 +147,6 @@
 				TargetAttributes = {
 					433BC1AD1EDB927B005F9F02 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = UUBSQ7AHAA;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -371,7 +370,7 @@
 			baseConfigurationReference = 0BCC49E737F6B894D04A6DD6 /* Pods-tateti-ios-workshop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UUBSQ7AHAA;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "tateti-ios-workshop/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.assignment.tateti-ios-workshop";
@@ -385,7 +384,7 @@
 			baseConfigurationReference = 0D34EF0874BA1AC9A1890F42 /* Pods-tateti-ios-workshop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UUBSQ7AHAA;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "tateti-ios-workshop/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.assignment.tateti-ios-workshop";
