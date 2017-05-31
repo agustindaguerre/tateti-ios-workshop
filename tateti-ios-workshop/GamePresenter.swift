@@ -2,9 +2,8 @@
 //  GamePresenter.swift
 //  tateti-ios-workshop
 //
-//  Created by Agustin Daguerre on 6/1/17.
+//  Created by Agustin Daguerre on 5/30/17.
 //  Copyright © 2017 agustindaguerre. All rights reserved.
-//
 
 import Foundation
 import CoreData
@@ -19,6 +18,4 @@ class GamePresenter {
         managedContext = appDelegate.persistentContainer.viewContext
         currentGame = Game()
     }
-    
-    
 }

@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tateti-ios-workshop/Player.swift"
-            timestampString = "517723986.326489"
+            timestampString = "517883705.291547"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
             landmarkName = "Player"
             landmarkType = "3">
          </BreakpointContent>

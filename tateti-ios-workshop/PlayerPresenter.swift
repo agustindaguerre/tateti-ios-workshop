@@ -8,7 +8,6 @@
 
 import Foundation
 import CoreData
-import UIKit
 
 class PlayerPresenter {
     private var appDelegate: AppDelegate
@@ -19,7 +18,7 @@ class PlayerPresenter {
         managedContext = appDelegate.persistentContainer.viewContext
     }
     
-    func getPlayers(email: String? = nil) -> [PlayerMO] {
+    func getPlayers(email: String? = nil) -> [Player] {
         // fetch request
         let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "Player")
         if let emailFilter = email {
@@ -28,9 +27,9 @@ class PlayerPresenter {
             fetchRequest.predicate = predicate
         }
         
-        var players: [PlayerMO] = []
+        var players: [Player] = []
         do {
-            players = try managedContext.fetch(fetchRequest) as! [PlayerMO]
+            players = try managedContext.fetch(fetchRequest) as! [Player]
             print(players.count)
         } catch let error as NSError {
             print("Could not fetch. \(error), \(error.userInfo)")

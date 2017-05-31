@@ -15,10 +15,10 @@ class SelectPlayersViewController : UIViewController {
     
     private let presenter = PlayerPresenter(appDelegateParam: UIApplication.shared.delegate as? AppDelegate)
     
-    var data: [PlayerMO] = []
-    var selectedItem: PlayerMO!
+    var data: [Player] = []
+    var selectedItem: Player!
     
-    var selectedPlayers: [PlayerMO] = []
+    var selectedPlayers: [Player] = []
     
     @IBOutlet weak var playerSelectTable: UITableView!
     

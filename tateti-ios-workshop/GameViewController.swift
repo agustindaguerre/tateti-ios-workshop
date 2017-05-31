@@ -10,7 +10,7 @@ import UIKit
 
 class GameViewController: UIViewController {
     
-    var players: [PlayerMO] = []
+    var players: [Player] = []
     private let presenter = GamePresenter(appDelegateParam: UIApplication.shared.delegate as? AppDelegate)
     
     override func viewDidLoad() {

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		433773061EDE3329005AE9E8 /* SelectPlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433773051EDE3329005AE9E8 /* SelectPlayersViewController.swift */; };
+		433773081EDE4326005AE9E8 /* GamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433773071EDE4326005AE9E8 /* GamePresenter.swift */; };
+		4337730A1EDE44E1005AE9E8 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433773091EDE44E1005AE9E8 /* Game.swift */; };
+		4337730C1EDE4524005AE9E8 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4337730B1EDE4524005AE9E8 /* Player.swift */; };
 		433BC1B21EDB927B005F9F02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433BC1B11EDB927B005F9F02 /* AppDelegate.swift */; };
 		433BC1B41EDB927B005F9F02 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433BC1B31EDB927B005F9F02 /* GameViewController.swift */; };
 		433BC1B71EDB927B005F9F02 /* Game.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433BC1B51EDB927B005F9F02 /* Game.storyboard */; };
@@ -31,6 +34,9 @@
 		0D34EF0874BA1AC9A1890F42 /* Pods-tateti-ios-workshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tateti-ios-workshop.release.xcconfig"; path = "Pods/Target Support Files/Pods-tateti-ios-workshop/Pods-tateti-ios-workshop.release.xcconfig"; sourceTree = "<group>"; };
 		1B0F27F2034E87F5327AFBF1 /* Pods_tateti_ios_workshop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tateti_ios_workshop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		433773051EDE3329005AE9E8 /* SelectPlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectPlayersViewController.swift; sourceTree = "<group>"; };
+		433773071EDE4326005AE9E8 /* GamePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePresenter.swift; sourceTree = "<group>"; };
+		433773091EDE44E1005AE9E8 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		4337730B1EDE4524005AE9E8 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		433BC1AE1EDB927B005F9F02 /* tateti-ios-workshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tateti-ios-workshop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		433BC1B11EDB927B005F9F02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		433BC1B31EDB927B005F9F02 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -99,7 +105,9 @@
 				433773051EDE3329005AE9E8 /* SelectPlayersViewController.swift */,
 				518F35AD1EDF8E4000FAB37D /* RankingPresenter.swift */,
 				518F35AF1EDF934E00FAB37D /* RankingView.swift */,
-				43FB65ED1EDFCF3A009E116F /* GamePresenter.swift */,
+				433773071EDE4326005AE9E8 /* GamePresenter.swift */,
+				433773091EDE44E1005AE9E8 /* Game.swift */,
+				4337730B1EDE4524005AE9E8 /* Player.swift */,
 			);
 			path = "tateti-ios-workshop";
 			sourceTree = "<group>";
@@ -247,12 +255,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				43D014DF1EDCA3DF0035447D /* RankingViewController.swift in Sources */,
-				43FB65EE1EDFCF3A009E116F /* GamePresenter.swift in Sources */,
+				4337730A1EDE44E1005AE9E8 /* Game.swift in Sources */,
 				433773061EDE3329005AE9E8 /* SelectPlayersViewController.swift in Sources */,
 				433BC1B41EDB927B005F9F02 /* GameViewController.swift in Sources */,
 				433BC1BA1EDB927B005F9F02 /* tateti_ios_workshop.xcdatamodeld in Sources */,
+				4337730C1EDE4524005AE9E8 /* Player.swift in Sources */,
 				433BC1B21EDB927B005F9F02 /* AppDelegate.swift in Sources */,
-				518F35AE1EDF8E4000FAB37D /* RankingPresenter.swift in Sources */,
+		    		518F35AE1EDF8E4000FAB37D /* RankingPresenter.swift in Sources */,
+				433773081EDE4326005AE9E8 /* GamePresenter.swift in Sources */,
 				43D014DD1EDCA3870035447D /* MainViewController.swift in Sources */,
 				518F35B01EDF934E00FAB37D /* RankingView.swift in Sources */,
 				43D014E71EDD219C0035447D /* PlayerPresenter.swift in Sources */,
