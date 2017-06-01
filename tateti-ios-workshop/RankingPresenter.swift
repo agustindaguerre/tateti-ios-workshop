@@ -24,9 +24,13 @@ class RankingPresenter {
         
         do {
             playersByGamesWon = try managedContext.fetch(request) as! [PlayerMO]
-        } catch let error as NSError {
-            print(error)
+        } catch _ as NSError {
+            self.showError()
         }
         self.rankingView?.getPlayersSortedByGamesWon(players: playersByGamesWon)
+    }
+    
+    func showError() {
+        self.rankingView?.showError()
     }
 }

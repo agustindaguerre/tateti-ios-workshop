@@ -1,6 +1,7 @@
 
 import UIKit
 import Foundation
+import SwiftMessages
 
 private let kCellIdentifier = "kCellIdentifier"
 
@@ -49,5 +50,14 @@ extension RankingViewController: RankingView {
     func getPlayersSortedByGamesWon(players: [PlayerMO]) {
         self.players = players
         rankingTable.reloadData()
+    }
+    
+    func showError() {
+        let view = MessageView.viewFromNib(layout: .CardView)
+        view.button = nil
+        view.configureTheme(.error)
+        view.configureDropShadow()
+        view.configureContent(title: "Error", body: "There was a problem while fetching players", iconText: "❌")
+        SwiftMessages.show(view: view)
     }
 }
