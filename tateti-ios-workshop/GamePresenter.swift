@@ -29,6 +29,9 @@ class GamePresenter {
         let completed = currentGame.makePlay(position: position) || currentGame.gameTied()
         if (completed) {
             do {
+                if let winner = getWinner() {
+                    winner.gamesw = winner.gamesw + 1
+                }
                 try managedContext.save()
             } catch let error as NSError {
 //                errorMsj = "Could not save. Try again"
