@@ -2,10 +2,11 @@
 import UIKit
 import Foundation
 import SwiftMessages
+import DZNEmptyDataSet
 
 private let kCellIdentifier = "kCellIdentifier"
 
-class RankingViewController: UIViewController {
+class RankingViewController: UIViewController, DZNEmptyDataSetSource, DZNEmptyDataSetDelegate {
     
     @IBOutlet weak var rankingTable: UITableView!
     
@@ -15,8 +16,20 @@ class RankingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         rankingTable.dataSource = self
+        rankingTable.emptyDataSetSource = self
+        rankingTable.emptyDataSetDelegate = self
+        rankingTable.tableFooterView = UIView()
         presenter.attachView(view: self)
         presenter.getPlayersSortedByGamesWon()
+    }
+    
+    func description(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
+        let attr = [NSFontAttributeName: UIFont(name: "Helvetica", size: 16)]
+        return NSAttributedString(string: "We don't have players added yet", attributes: attr)
+    }
+    
+    func image(forEmptyDataSet scrollView: UIScrollView!) -> UIImage! {
+        return UIImage(named: "empty")
     }
 }
 
@@ -54,7 +67,6 @@ extension RankingViewController: RankingView {
     
     func showError() {
         let view = MessageView.viewFromNib(layout: .CardView)
-        view.button = nil
         view.configureTheme(.error)
         view.configureDropShadow()
         view.configureContent(title: "Error", body: "There was a problem while fetching players", iconText: "❌")
