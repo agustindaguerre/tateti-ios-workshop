@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -35,19 +34,16 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rPQ-M2-ZcT">
                                 <rect key="frame" x="0.0" y="102" width="375" height="565"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="375" id="LQV-BZ-YmZ"/>
-                                    <constraint firstAttribute="height" constant="565" id="Wh4-nE-yNr"/>
-                                </constraints>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="rPQ-M2-ZcT" secondAttribute="trailing" constant="-16" id="FYN-dn-xCS"/>
-                            <constraint firstItem="mul-Qf-qan" firstAttribute="top" secondItem="rPQ-M2-ZcT" secondAttribute="bottom" id="I14-iy-I0N"/>
-                            <constraint firstItem="rPQ-M2-ZcT" firstAttribute="top" secondItem="8nT-Cb-Td3" secondAttribute="bottom" constant="82" id="OC9-xs-xjY"/>
                             <constraint firstItem="15D-tV-MGl" firstAttribute="top" secondItem="8nT-Cb-Td3" secondAttribute="bottom" constant="8" id="S1J-WP-iLt"/>
+                            <constraint firstItem="mul-Qf-qan" firstAttribute="top" secondItem="rPQ-M2-ZcT" secondAttribute="bottom" id="WA6-i7-1m6"/>
+                            <constraint firstItem="rPQ-M2-ZcT" firstAttribute="leading" secondItem="nLW-gN-lxV" secondAttribute="leading" id="ZBn-zh-zFr"/>
                             <constraint firstItem="15D-tV-MGl" firstAttribute="centerX" secondItem="nLW-gN-lxV" secondAttribute="centerX" id="a5m-IN-su1"/>
+                            <constraint firstItem="rPQ-M2-ZcT" firstAttribute="top" secondItem="15D-tV-MGl" secondAttribute="bottom" constant="26" id="daZ-Im-ecp"/>
+                            <constraint firstAttribute="trailing" secondItem="rPQ-M2-ZcT" secondAttribute="trailing" id="rTT-MZ-gvR"/>
                         </constraints>
                     </view>
                     <connections>
