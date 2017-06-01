@@ -20,6 +20,7 @@
 		43D014E11EDCA9620035447D /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D014E01EDCA9620035447D /* PlayerViewController.swift */; };
 		43D014E71EDD219C0035447D /* PlayerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D014E61EDD219C0035447D /* PlayerPresenter.swift */; };
 		43E2EBD91EDC52470059BD02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E2EBD81EDC52470059BD02 /* Main.storyboard */; };
+		43FB65EE1EDFCF3A009E116F /* GamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FB65ED1EDFCF3A009E116F /* GamePresenter.swift */; };
 		518F35AE1EDF8E4000FAB37D /* RankingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518F35AD1EDF8E4000FAB37D /* RankingPresenter.swift */; };
 		518F35B01EDF934E00FAB37D /* RankingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518F35AF1EDF934E00FAB37D /* RankingView.swift */; };
 		6A02FABFA58E5B2A6F6D3825 /* Pods_tateti_ios_workshop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0F27F2034E87F5327AFBF1 /* Pods_tateti_ios_workshop.framework */; };
@@ -44,6 +45,7 @@
 		43D014E01EDCA9620035447D /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		43D014E61EDD219C0035447D /* PlayerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerPresenter.swift; sourceTree = "<group>"; };
 		43E2EBD81EDC52470059BD02 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		43FB65ED1EDFCF3A009E116F /* GamePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePresenter.swift; sourceTree = "<group>"; };
 		518F35AD1EDF8E4000FAB37D /* RankingPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingPresenter.swift; sourceTree = "<group>"; };
 		518F35AF1EDF934E00FAB37D /* RankingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,6 +99,7 @@
 				433773051EDE3329005AE9E8 /* SelectPlayersViewController.swift */,
 				518F35AD1EDF8E4000FAB37D /* RankingPresenter.swift */,
 				518F35AF1EDF934E00FAB37D /* RankingView.swift */,
+				43FB65ED1EDFCF3A009E116F /* GamePresenter.swift */,
 			);
 			path = "tateti-ios-workshop";
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43D014DF1EDCA3DF0035447D /* RankingViewController.swift in Sources */,
+				43FB65EE1EDFCF3A009E116F /* GamePresenter.swift in Sources */,
 				433773061EDE3329005AE9E8 /* SelectPlayersViewController.swift in Sources */,
 				433BC1B41EDB927B005F9F02 /* GameViewController.swift in Sources */,
 				433BC1BA1EDB927B005F9F02 /* tateti_ios_workshop.xcdatamodeld in Sources */,
