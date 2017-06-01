@@ -58,13 +58,17 @@ class GameViewController: UIViewController {
                 view.configureContent(title: "Boring!", body: "Game ends in a tie", iconText: iconText)
             }
             
+            // Specify one or more event listeners to respond to show and hide events.
+            config.eventListeners.append() { event in
+                if case .didHide = event {
+                    self.navigationController?.popViewController(animated: true)
+                    self.navigationController?.isNavigationBarHidden = false
+                }
+            }
+            
             // Show the message.
             SwiftMessages.show(config: config, view: view)
-                
-                // Specify one or more event listeners to respond to show and hide events.
-            config.eventListeners.append() { event in
-                if case .didHide = event { self.navigationController?.popViewController(animated: true) }
-            }
+            
         }
     }
 
