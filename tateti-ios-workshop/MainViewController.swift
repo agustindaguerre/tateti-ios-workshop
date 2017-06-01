@@ -12,7 +12,6 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -24,5 +23,8 @@ class MainViewController: UIViewController {
     
     @IBAction func newPlayerClick(_ sender: UIButton) {
         performSegue(withIdentifier: "playerSegue", sender: self)
+    }
+    @IBAction func viewRanking(_ sender: UIButton) {
+        performSegue(withIdentifier: "rankingSegue", sender: self)
     }
 }

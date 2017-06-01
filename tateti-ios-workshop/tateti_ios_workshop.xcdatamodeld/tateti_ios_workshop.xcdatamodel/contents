@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16B2657" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G1510" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Game" representedClassName="Game" syncable="YES" codeGenerationType="class">
         <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="result" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
@@ -9,10 +9,11 @@
     <entity name="Player" representedClassName="PlayerMO" syncable="YES" codeGenerationType="class">
         <attribute name="dob" attributeType="Date" maxDateTimeInterval="0" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="email" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="gamesw" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="name" attributeType="String" maxValueString="100" indexed="YES" syncable="YES"/>
     </entity>
     <elements>
         <element name="Game" positionX="196" positionY="-9" width="128" height="103"/>
-        <element name="Player" positionX="-126" positionY="-7" width="128" height="90"/>
+        <element name="Player" positionX="-126" positionY="-7" width="128" height="105"/>
     </elements>
 </model>

@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AhY-8i-t7q">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AhY-8i-t7q">
     <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -57,6 +57,9 @@
                                 <state key="normal" title="Ranking">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="viewRanking:" destination="Sho-oM-FHF" eventType="touchUpInside" id="4Hr-p7-cQ5"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="# Tic-Tac-Toe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2E-mJ-9b0">
                                 <rect key="frame" x="45" y="99" width="230" height="54"/>
@@ -89,11 +92,20 @@
                     <connections>
                         <segue destination="G5b-oj-2UT" kind="show" identifier="gameStorySegue" id="Vc8-xw-CjB"/>
                         <segue destination="jNl-9N-sDJ" kind="show" identifier="playerSegue" id="BOk-oe-cLb"/>
+                        <segue destination="J7Y-1Z-SOl" kind="show" identifier="rankingSegue" id="igF-S3-hd9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g9P-wm-5gV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="864.79999999999995" y="139.880059970015"/>
+        </scene>
+        <!--Ranking-->
+        <scene sceneID="ifo-UD-Zdn">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Ranking" id="J7Y-1Z-SOl" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dgg-ay-zuz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1542" y="-215"/>
         </scene>
         <!--Game-->
         <scene sceneID="Wjn-et-C6I">
