@@ -3,6 +3,31 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "Game.checkWinner(currentPlayer : Player) -&gt; Bool:Game.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "moves">
+            </PersistentString>
+            <PersistentString
+               value = "playerTwo!.email">
+            </PersistentString>
+            <PersistentString
+               value = "playerOne!.email">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Game.makePlay(position : Int) -&gt; Bool:Game.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "moves">
+            </PersistentString>
+            <PersistentString
+               value = "playerOne">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "PlayerViewController.submitNewPlayer() -&gt; ():PlayerViewController.swift">
          <PersistentStrings>
             <PersistentString

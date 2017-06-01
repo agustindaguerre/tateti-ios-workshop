@@ -75,6 +75,7 @@
                                     <constraint firstAttribute="width" constant="55" id="Ib3-l8-Kln"/>
                                     <constraint firstAttribute="height" constant="55" id="LjV-9z-1Tb"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="42"/>
                                 <connections>
                                     <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0oO-sK-hAz"/>
                                 </connections>
@@ -82,6 +83,7 @@
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Osu-mV-H8p">
                                 <rect key="frame" x="132" y="95" width="55" height="55"/>
                                 <color key="backgroundColor" red="0.93847935589999998" green="0.53675263019999997" blue="0.081878198900000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="42"/>
                                 <connections>
                                     <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8ED-Pl-b7T"/>
                                 </connections>
@@ -89,10 +91,15 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjp-JO-7a2">
                                 <rect key="frame" x="57" y="95" width="55" height="55"/>
                                 <color key="backgroundColor" red="0.93847935589999998" green="0.53675263019999997" blue="0.081878198900000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="42"/>
+                                <connections>
+                                    <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8M6-tz-9dD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94g-jj-2VT">
                                 <rect key="frame" x="207.5" y="170" width="55" height="55"/>
                                 <color key="backgroundColor" red="0.93847935589999998" green="0.53675263019999997" blue="0.081878198900000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="42"/>
                                 <connections>
                                     <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Ix-7v-UbB"/>
                                 </connections>
@@ -100,6 +107,7 @@
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dV0-Ls-yaw">
                                 <rect key="frame" x="57.5" y="170" width="55" height="55"/>
                                 <color key="backgroundColor" red="0.93847935589999998" green="0.53675263019999997" blue="0.081878198900000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="42"/>
                                 <connections>
                                     <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dn9-Ne-n2F"/>
                                 </connections>
@@ -107,6 +115,7 @@
                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gnx-0Y-aBr">
                                 <rect key="frame" x="132" y="245" width="55" height="55"/>
                                 <color key="backgroundColor" red="0.93847935589999998" green="0.53675263019999997" blue="0.081878198900000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="42"/>
                                 <connections>
                                     <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KZj-oY-C6c"/>
                                 </connections>
@@ -114,6 +123,7 @@
                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZj-9p-aAb">
                                 <rect key="frame" x="57" y="245" width="55" height="55"/>
                                 <color key="backgroundColor" red="0.93847935589999998" green="0.53675263019999997" blue="0.081878198900000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="42"/>
                                 <connections>
                                     <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S7M-BD-sfH"/>
                                 </connections>
@@ -121,6 +131,7 @@
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RoP-gc-eUD">
                                 <rect key="frame" x="207" y="95" width="55" height="55"/>
                                 <color key="backgroundColor" red="0.93847935589999998" green="0.53675263019999997" blue="0.081878198900000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="42"/>
                                 <connections>
                                     <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a8L-bj-YKJ"/>
                                 </connections>
@@ -128,6 +139,7 @@
                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fN4-MV-BmC">
                                 <rect key="frame" x="207" y="245" width="55" height="55"/>
                                 <color key="backgroundColor" red="0.93847935589999998" green="0.53675263019999997" blue="0.081878198900000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="42"/>
                                 <connections>
                                     <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VpX-fD-o3L"/>
                                 </connections>

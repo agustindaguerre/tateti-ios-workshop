@@ -10,7 +10,7 @@ class RankingViewController: UIViewController, DZNEmptyDataSetSource, DZNEmptyDa
     
     @IBOutlet weak var rankingTable: UITableView!
     
-    var players = [PlayerMO]()
+    var players = [Player]()
     var presenter = RankingPresenter(appDelegateParam: UIApplication.shared.delegate as? AppDelegate)
     
     override func viewDidLoad() {
@@ -60,7 +60,7 @@ extension RankingViewController: UITableViewDataSource, UITableViewDelegate {
 }
 
 extension RankingViewController: RankingView {
-    func getPlayersSortedByGamesWon(players: [PlayerMO]) {
+    func getPlayersSortedByGamesWon(players: [Player]) {
         self.players = players
         rankingTable.reloadData()
     }

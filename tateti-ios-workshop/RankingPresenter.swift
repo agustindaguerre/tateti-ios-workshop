@@ -20,10 +20,10 @@ class RankingPresenter {
         let sortDescriptor = NSSortDescriptor(key: "gamesw", ascending: false)
         request.sortDescriptors = [sortDescriptor]
         
-        var playersByGamesWon = [PlayerMO]()
+        var playersByGamesWon = [Player]()
         
         do {
-            playersByGamesWon = try managedContext.fetch(request) as! [PlayerMO]
+            playersByGamesWon = try managedContext.fetch(request) as! [Player]
         } catch _ as NSError {
             self.showError()
         }
