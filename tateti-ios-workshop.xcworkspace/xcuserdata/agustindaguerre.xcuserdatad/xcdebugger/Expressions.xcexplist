@@ -3,6 +3,14 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "GameViewController.buttonClick(UIButton) -&gt; ():GameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "winner.name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "Game.checkWinner(currentPlayer : Player) -&gt; Bool:Game.swift">
          <PersistentStrings>
             <PersistentString
